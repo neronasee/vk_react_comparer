@@ -1,0 +1,16 @@
+.result-list {
+	padding-top: 30px;
+	border-top: 3px solid black;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+.result-list__item {
+	flex-basis: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}

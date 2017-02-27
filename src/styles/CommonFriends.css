@@ -1,0 +1,13 @@
+.common-friends {
+	padding-top: 30px;
+	border-top: 3px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+.сommon-friends__item {
+	flex-basis: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+.finder {
+	padding: 10px 0;
+	margin: 10px 0;
+	font-size: 10px;
+	overflow-y: scroll;
+	height: 350px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.finder__item {
+	border: 1px solid #57adc1;
+	padding: 10px;
+	user-select: none;
+	flex-basis: 33.33%;
+	overflow: hidden;
+}
+.finder__item:hover {
+	background:#dbeef2;
+	cursor: pointer;
+}
+.finder__name {
+	font-size: 14px;
+	margin-bottom: 0;
+}
